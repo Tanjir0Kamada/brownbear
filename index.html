@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Доула - Профессиональная поддержка в период беременности и родов</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Шапка с адаптивным меню -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-brand">
+                <span class="brand-name">ДОУЛА</span>
+            </div>
+            
+            <!-- Кнопка меню для мобильных -->
+            <button class="menu-toggle" id="menuToggle">
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+            </button>
+
+            <!-- Основное меню -->
+            <ul class="nav-list" id="navList">
+                <li class="nav-item dropdown">
+                    <a href='#' class="nav-link">
+                        Обо мне
+                        <i class="fas fa-chevron-down dropdown-icon"></i>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#experience">Мой опыт</a></li>
+                        <li><a href="#certificates">Сертификаты</a></li>
+                        <li><a href="#philosophy">Моя философия</a></li>
+                    </ul>
+                </li>
+                
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link">
+                        Услуги
+                        <i class="fas fa-chevron-down dropdown-icon"></i>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#pregnancy">Подготовка к беременности</a></li>
+                        <li><a href="#birth">Сопровождение в родах</a></li>
+                        <li><a href="#postpartum">Послеродовая поддержка</a></li>
+                        <li><a href="#consultation">Индивидуальные консультации</a></li>
+                    </ul>
+                </li>
+                
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link">
+                        Ресурсы
+                        <i class="fas fa-chevron-down dropdown-icon"></i>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#articles">Статьи</a></li>
+                        <li><a href="#books">Рекомендуемая литература</a></li>
+                        <li><a href="#videos">Видеоуроки</a></li>
+                        <li><a href="#checklists">Чек-листы</a></li>
+                    </ul>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="#reviews" class="nav-link">Отзывы</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Главный экран -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">Профессиональная поддержка в период беременности и родов</h1>
+                    <p class="hero-subtitle">Ваш надежный помощник и проводник в удивительном путешествии материнства</p>
+                    <div class="hero-buttons">
+                        <button class="cta-button primary">Записаться на консультацию</button>
+                        <button class="cta-button secondary">Узнать больше</button>
+                    </div>
+                </div>
+<div class="hero-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-heartbeat"></i>
+                        <span>Профессиональная доула</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Обо мне -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Обо мне</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="intro">Я профессиональная доула с многолетним опытом работы. Помогаю женщинам обрести уверенность и спокойствие в период беременности, родов и послеродового восстановления.</p>
+                    <p>Моя миссия - сделать ваш путь к материнству комфортным, осознанным и радостным.</p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-certificate"></i>
+                            <span>Сертифицированный специалист</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span>Более 5 лет опыта</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-clock"></i>
+                            <span>Поддержка 24/7</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-user-friends"></i>
+                            <span>Индивидуальный подход</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-user-md"></i>
+                        <span>Фото специалиста</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Услуги -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Мои услуги</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-baby-carriage"></i>
+                    </div>
+                    <h3>Подготовка к родам</h3>
+                    <p>Индивидуальные консультации и практические занятия по подготовке к естественным родам</p>
+                    <a href="#" class="service-link">Подробнее <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-hands-helping"></i>
+                    </div>
+                    <h3>Сопровождение в родах</h3>
+                    <p>Физическая и эмоциональная поддержка во время родовой деятельности</p>
+                    <a href="#" class="service-link">Подробнее <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Послеродовая адаптация</h3>
+                    <p>Помощь в налаживании грудного вскармливания и уходе за новорожденным</p>
+                    <a href="#" class="service-link">Подробнее <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Отзывы -->
+    <section id="reviews" class="reviews">
+        <div class="container">
+            <h2 class="section-title">Отзывы клиентов</h2>
+<div class="reviews-slider">
+                <div class="review-card">
+                    <div class="review-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Благодаря профессиональной поддержке, мои роды прошли спокойно и уверенно. Рекомендую всем будущим мамам!"</p>
+                    <div class="review-author">
+                        <strong>Анна</strong>
+                        <span>Москва</span>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Очень помогли советы по грудному вскармливанию. Теперь все прекрасно получается! Спасибо за поддержку."</p>
+                    <div class="review-author">
+                        <strong>Мария</strong>
+                        <span>Санкт-Петербург</span>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Профессионал высшего класса! Поддержка на каждом этапе беременности и после родов. Очень благодарна!"</p>
+                    <div class="review-author">
+                        <strong>Екатерина</strong>
+                        <span>Казань</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Контакты -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Свяжитесь со мной</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Контакты</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <strong>Телефон</strong>
+                            <p>+7 (XXX) XXX-XX-XX</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <strong>Email</strong>
+                            <p>email@example.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <strong>Адрес</strong>
+                            <p>Москва, Россия</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-telegram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+<input type="text" placeholder="Ваше имя" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Ваш email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" placeholder="Ваш телефон">
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Ваше сообщение" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Отправить сообщение</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>ДУЛА</h3>
+                    <p>Профессиональная поддержка в период беременности и родов</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Быстрые ссылки</h4>
+                    <ul>
+                        <li><a href="#about">Обо мне</a></li>
+                        <li><a href="#services">Услуги</a></li>
+                        <li><a href="#reviews">Отзывы</a></li>
+                        <li><a href="#contact">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Контакты</h4>
+                    <p>+7 (XXX) XXX-XX-XX</p>
+                    <p>email@example.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Дула. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
